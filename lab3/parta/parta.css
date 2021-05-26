@@ -1,0 +1,44 @@
+/* Stylesheet for Lab 3 Part A */
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Open+Sans&display=swap');
+
+
+body {
+    background-color: antiquewhite;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Mate SC', serif;
+}
+
+.excerpt {
+    font-style: italic;
+    padding: 20px;
+    font-size: large;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+figure.left {
+    float: inline-start;
+}
+
+figure.right {
+    float: inline-end;
+}
+
+figcaption {
+    word-wrap: normal;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    
+}
+
