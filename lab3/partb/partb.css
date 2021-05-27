@@ -1,0 +1,57 @@
+/* Stylesheet for Lab 3 Part B */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    color: white;
+    text-shadow: 1px 1px 1px black, 1px 1px 1px black;
+    background-image: url("photos/melanie-lim-246b6c6IeC0-unsplash.jpg"); /* Image source: https://unsplash.com/photos/246b6c6IeC0 */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    text-shadow: -5px -5px 0px black, 5px 5px 0px black;
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+div.form {
+    width: 25%;
+    margin-left: 20%;
+    margin-right: auto;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+input, textarea {
+    width: 200px;
+}
+
+td {
+    width: 200px;
+}
+
+.okbutton {
+    background-color: rgb(161, 202, 99);
+    border: outset;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+    width: 190px;
+}
+
+.cancelbutton {
+    background-color: rgb(228, 215, 97);
+    border: outset;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+    width: 190px;
+}
