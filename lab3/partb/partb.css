@@ -26,10 +26,8 @@ body::after {
 h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 80px;
-    color: white;
+    color: black;
     text-align: center;
-    text-shadow: -5px -5px 0px black, 5px 5px 0px black;
-    background-color: rgba(128, 128, 128, 0.6);
 }
 
 div.form {
