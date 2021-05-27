@@ -9,6 +9,7 @@ body {
     padding-right: 10%;
     font-size: larger;
     font-family: 'Open Sans', sans-serif;
+    z-index: 1;
 }
 
 h1 {
@@ -24,6 +25,10 @@ h1 {
     margin-right: 15%;
 }
 
+figure {
+    width: 200px;
+}
+
 figure.left {
     float: inline-start;
 }
@@ -34,11 +39,34 @@ figure.right {
 
 figcaption {
     word-wrap: normal;
+    font-weight: bold;
 }
 
 img {
     width: 200px;
     height: auto;
-    
+}
+
+img:hover {
+    width: 600px;
+    height: auto;
+    z-index: 2;
+    position: relative;
+}
+
+span.first-letter {
+    font-size: xx-large;
+    font-family: 'Mate SC', serif;
+    color: brown;
+}
+
+a:hover {
+    font-size: x-large;
+    color: brown;
+}
+
+div.link {
+    font-size: medium;
+    padding-top: 10px;
 }
 
