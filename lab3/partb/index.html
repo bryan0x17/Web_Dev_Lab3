@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Lab 3 - Part B</title>
+</head>
+<body>
+    <h1>Western Columbia Grocers</h1>
+    <h2>Registration</h2>
+    <form action="http://localhost/registration.html" method="GET" >
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Name</label>
+                </td>
+                <td>
+                    <input type="text" name="name" title="First and last name, no special characters (except -)" pattern="[a-zA-Z\s-]+" minlength="1" maxlength="25" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea id="address" name="address" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Telephone Number</label>
+                </td>
+                <td>
+                    <input type="tel" name="phone" id="phone" title="555 555 5555" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age</label>
+                </td>
+                <td>
+                    <input type="number" id="age" name="age" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email Address</label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" title="johndoe@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Registration Date</label>
+                </td>
+                <td>
+                    <input type="date" id="date" name="date" required>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
