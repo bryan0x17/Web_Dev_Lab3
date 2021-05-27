@@ -7,9 +7,20 @@ body {
     font-size: larger;
     color: white;
     text-shadow: 1px 1px 1px black, 1px 1px 1px black;
+}
+
+body::after {
     background-image: url("photos/melanie-lim-246b6c6IeC0-unsplash.jpg"); /* Image source: https://unsplash.com/photos/246b6c6IeC0 */
     background-size: cover;
     background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    z-index: -1;
 }
 
 h1 {
